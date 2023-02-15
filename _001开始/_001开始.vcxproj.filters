@@ -27,7 +27,10 @@
     <ClCompile Include="结构体.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="递归.cpp">
+    <ClCompile Include="递归.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="海伦公式.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -6,7 +6,7 @@ long long str(int n)
 	else
 		return str(n - 1) + str(n - 2);
 }
-int main()
+int f5(void)
 {
 	/*FILE* file;
 	file = fopen("1.txt", "w");
@@ -20,6 +20,10 @@ int main()
 			k++;
 		}
 	}*/
-	printf("%lld\n", str(10));
+	//printf("%lld\n", str(10));
+	int a = 1;
+	int b = 2;
+	int c = a / b;
+	printf("%d", c);
 	return 0;
 }

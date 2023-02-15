@@ -25,7 +25,7 @@ void StudentInfo(Student* stu, int i)
 			(stu + j)->Info.Year, (stu + j)->Info.Month, (stu + j)->Info.Day);
 	}	
 }
-int f4()
+int f4(void)
 {
 	/*int arr[3][4] =
 	{

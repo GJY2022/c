@@ -1,4 +1,4 @@
-﻿int f2()
+﻿int f2(void)
 {
     int a[10] = { 0 };
     int max = 10;

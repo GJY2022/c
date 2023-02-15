@@ -1,4 +1,4 @@
-int f1()
+int f1(void)
 {
 	int arr[6][6]=
 	{

@@ -1,7 +1,6 @@
 #include<stdio.h>
 long long str(int n)
 {
-	printf("%d\n", n);
 	if (n == 1 || n == 2)
 		return 1;
 	else
@@ -21,6 +20,6 @@ int main()
 			k++;
 		}
 	}*/
-	printf("%lld\n", str(100));
+	printf("%lld\n", str(10));
 	return 0;
 }

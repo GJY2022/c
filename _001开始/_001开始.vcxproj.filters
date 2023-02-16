@@ -33,6 +33,9 @@
     <ClCompile Include="海伦公式.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="大小写转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="g1.h">

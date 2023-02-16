@@ -9,7 +9,7 @@ float Average(int arr[],int j)
 	float average = (float)sum / 10;
 	return average;
 }
-int main(void)
+int f10(void)
 {
 	int arr[10] = { 0 };
 	for (int i = 0; i < 10; i++)

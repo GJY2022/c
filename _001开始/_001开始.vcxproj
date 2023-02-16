@@ -135,10 +135,11 @@
     <ClCompile Include="大小写转换.c" />
     <ClCompile Include="海伦公式.c" />
     <ClCompile Include="死循环.c" />
-    <ClCompile Include="源.c">
+    <ClCompile Include="求平均数.c">
       <LanguageStandard_C Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdc17</LanguageStandard_C>
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
     </ClCompile>
+    <ClCompile Include="求平均数while版.c" />
     <ClCompile Include="递归.c" />
     <ClCompile Include="结构体.c" />
   </ItemGroup>

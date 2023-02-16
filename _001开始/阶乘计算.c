@@ -1,18 +1,16 @@
 #include<stdio.h>
 int main(void)
 {
-	int i = 0;
-	int j = 0;
+	int i, j;
 	int sum = 1;
 	printf("«Î ‰»Î\n");
 	scanf_s("%d", &i);
-	for (j = 0; j < i; j++)
+	for (j = 1; j <= i; j++)
 	{
-		static int k;//
-		k = i;
-		sum = sum * k;
-		k--;
+		//static int k;
+		//k = i;
+		sum = sum * j;
 	} 
-	printf("%d!=%d\n", j, sum);
+	printf("%d!=%d\n", i, sum);
 	return 0;
 }

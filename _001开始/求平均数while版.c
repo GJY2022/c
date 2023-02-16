@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+int f11(void)
 {
 	int arr = 0;
 	int i = 0;

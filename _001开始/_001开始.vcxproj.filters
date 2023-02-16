@@ -33,7 +33,13 @@
     <ClCompile Include="海伦公式.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="大小写转换.cpp">
+    <ClCompile Include="大小写转换.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二元一次方程组根.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -10,7 +10,7 @@ int f1(void)
 		1,1,1,1,1,1,
 	};
 	int x = 2, y = 2;
-	while (1) 
+	while (1)
 	{
 		for(int i=0;i<6;i++)
 		{

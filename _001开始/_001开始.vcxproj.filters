@@ -51,6 +51,9 @@
     <ClCompile Include="阶乘计算.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="阶乘计算函数版.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="g1.h">

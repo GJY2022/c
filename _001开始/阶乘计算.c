@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+int f12(void)
 {
 	int i, j;
 	int sum = 1;
@@ -7,8 +7,6 @@ int main(void)
 	scanf_s("%d", &i);
 	for (j = 1; j <= i; j++)
 	{
-		//static int k;
-		//k = i;
 		sum = sum * j;
 	} 
 	printf("%d!=%d\n", i, sum);

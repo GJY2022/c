@@ -39,7 +39,10 @@
     <ClCompile Include="二元一次方程组根.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="死循环.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

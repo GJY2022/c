@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+
 int f8(void)
 {
 	int a = 0, b = 0, c = 0, i;

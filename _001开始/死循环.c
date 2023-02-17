@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int f9(void)
 {
 	int i = 50;

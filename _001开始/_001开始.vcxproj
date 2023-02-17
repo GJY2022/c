@@ -142,6 +142,8 @@
       <LanguageStandard Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdcpp20</LanguageStandard>
     </ClCompile>
     <ClCompile Include="求平均数while版.c" />
+    <ClCompile Include="源.c" />
+    <ClCompile Include="源1.c" />
     <ClCompile Include="阶乘计算函数版.c" />
     <ClCompile Include="阶乘计算.c" />
     <ClCompile Include="递归.c" />

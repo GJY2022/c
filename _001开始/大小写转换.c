@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int f7(void)
 {
 	char c1;

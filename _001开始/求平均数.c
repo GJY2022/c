@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 float Average(int arr[],int j)
 {
 	int sum = 0;
@@ -9,6 +10,7 @@ float Average(int arr[],int j)
 	float average = (float)sum / 10;
 	return average;
 }
+
 int f10(void)
 {
 	int arr[10] = { 0 };

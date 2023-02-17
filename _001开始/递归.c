@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 long long str(int n)
 {
 	if (n == 1 || n == 2)

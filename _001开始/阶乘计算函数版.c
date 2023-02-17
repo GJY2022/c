@@ -1,11 +1,13 @@
 #include<stdio.h>
+
 long long str6(int i)
 {
 	static long long j = 1;
 	j = j * i;
 	return j;
 }
-int main(void)
+
+int f14(void)
 {
 	int i = 0;
 	long long w = 0;

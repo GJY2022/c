@@ -1,12 +1,14 @@
 #include"g2.h"
 #include<stdio.h>
 #define 整形 int
+
 typedef struct Date_Of_Birth
 {
 	int Year;//年
 	int Month;//月
 	int Day;//日
 }Date_Of_Birth;
+
 typedef struct Student
 {
 	long long ID;
@@ -16,6 +18,7 @@ typedef struct Student
 	float Grades;//成绩
 	Date_Of_Birth Info;
 }Student;
+
 void StudentInfo(Student* stu, int i)
 {
 	for(int j=0;j<i;j++)
@@ -25,6 +28,7 @@ void StudentInfo(Student* stu, int i)
 			(stu + j)->Info.Year, (stu + j)->Info.Month, (stu + j)->Info.Day);
 	}	
 }
+
 int f4(void)
 {
 	/*int arr[3][4] =

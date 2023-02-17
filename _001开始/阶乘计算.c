@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int f12(void)
 {
 	int i, j;

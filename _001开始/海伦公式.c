@@ -1,14 +1,17 @@
 #include<stdio.h>
 #include<math.h>
+
 float area(float a, float b, float c)
 {
 	float p = (a + b + c) * 0.5;
 	return sqrt(p * (p - a) * (p - b) * (p - c));
 }
+
 int add(int a, int b)
 {
 	return a + b;
 }
+
 int f6(void)
 {
 	float a = 0, b = 0, c = 0;

@@ -1,14 +1,39 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<malloc.h>
 
-int f13(void)
+int sj(void)
 {
-	int arr[] = { 1,2,3 };
-	int* p;
-	p = arr;
-	for (int i = 0; i < 3; i++)
+	return rand();
+}
+
+int* we(int* arr, int j,int (*p)(void))
+{
+	for (int i = 0; i < j; i++)
 	{
-		printf("arr[%d]=%p\n", i, p);
-		p++;
+		arr[i] = p();
+		printf("%p\n", arr+i);
+	}
+	return arr;
+}
+
+int main(void)
+{
+	int a;
+	int arr[100];
+	
+	printf("ÇëÊäÈë\n");
+	scanf_s("%d", &a);
+	we(arr,a, sj);
+	for (int i = 0; i < a; i++)
+	{
+		printf("%d\n", arr[i]);
+	}
+	int* p;
+	p = we(arr, a, sj);
+	for (int i = 0; i < a; i++)
+	{
+		printf("%p\n", p + i);
 	}
 	return 0;
 }

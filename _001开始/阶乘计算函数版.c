@@ -7,7 +7,7 @@ long long str6(int i)
 	return j;
 }
 
-int f14(void)
+int f15(void)
 {
 	int i = 0;
 	long long w = 0;

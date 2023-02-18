@@ -12,7 +12,7 @@ int* Get()
 	return arr;
 }
 
-int main(void)
+int f14(void)
 {
 	//Get();
 	int* q;

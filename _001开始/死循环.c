@@ -9,7 +9,7 @@ int f9(void)
 		if (i > 10)
 		{
 			printf("%d\n", i);
-			//continue;
+			//continue;//立即跳过此次循环
 		}
 		printf("666  %d\n", i);
 	}

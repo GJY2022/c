@@ -46,9 +46,9 @@ int f4(void)
 	//printf("%d", x);
 	Student stu1[2] =
 	{
-		{.ID = 202117102042,.Name = "»Æ»ªÒç",.Age = 24,.Gender = "ÄÐ",.Grades = 99.9919f,
+		{.ID = 202017502028,.Name = "»Æ»ªÒç",.Age = 24,.Gender = "ÄÐ",.Grades = 99.9919f,
 		.Info.Year = 2003,.Info.Month = 3,.Info.Day = 4 },
-		{.ID = 202117102043,.Name = "Ð¤½õÀð",.Age = 23,.Gender = "Å®",.Grades = 79.9919f,
+		{.ID = 202217604032,.Name = "Ð¤½õÀð",.Age = 23,.Gender = "Å®",.Grades = 79.9919f,
 		.Info.Year = 2004,.Info.Month = 2,.Info.Day = 2 }
 	};
 	Student* stu = &stu1[0];

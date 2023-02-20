@@ -63,7 +63,7 @@
     <ClCompile Include="比较大小.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.c">
+    <ClCompile Include="指针输出随机数.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

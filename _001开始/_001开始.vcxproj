@@ -145,7 +145,7 @@
     <ClCompile Include="数组与指针.c" />
     <ClCompile Include="数组与指针2.c" />
     <ClCompile Include="比较大小.c" />
-    <ClCompile Include="源.c" />
+    <ClCompile Include="指针输出随机数.c" />
     <ClCompile Include="阶乘计算函数版.c" />
     <ClCompile Include="阶乘计算.c" />
     <ClCompile Include="递归.c" />

@@ -35,5 +35,6 @@ int main(void)
 		printf("%d\n", p[i]);
 		printf("%p\n", p + i);
 	}
+	free(p);
 	return 0;
 }

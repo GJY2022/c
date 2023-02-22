@@ -66,6 +66,15 @@
     <ClCompile Include="指针输出随机数.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="共用体.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memcpy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="枚举.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="g1.h">

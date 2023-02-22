@@ -133,8 +133,10 @@
     <ClCompile Include="g1.c" />
     <ClCompile Include="g2.c" />
     <ClCompile Include="g3.c" />
+    <ClCompile Include="memcpy.c" />
     <ClCompile Include="二元一次方程组根.c" />
     <ClCompile Include="大小写转换.c" />
+    <ClCompile Include="枚举.c" />
     <ClCompile Include="海伦公式.c" />
     <ClCompile Include="死循环.c" />
     <ClCompile Include="求平均数.c">
@@ -146,6 +148,7 @@
     <ClCompile Include="数组与指针2.c" />
     <ClCompile Include="比较大小.c" />
     <ClCompile Include="指针输出随机数.c" />
+    <ClCompile Include="共用体.c" />
     <ClCompile Include="阶乘计算函数版.c" />
     <ClCompile Include="阶乘计算.c" />
     <ClCompile Include="递归.c" />

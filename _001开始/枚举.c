@@ -9,7 +9,7 @@ typedef enum Day
 	four	
 }Day;
 
-int main(int argc, char* argv[])
+int f20(int argc, char* argv[])
 {
 	Day day;
 	scanf_s("%d", &day);

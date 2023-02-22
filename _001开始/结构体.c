@@ -21,7 +21,7 @@ typedef struct Student
 
 void StudentInfo(Student* stu, int i)
 {
-	for(int j=0;j<i;j++)
+	for(int j = 0;j < i;j++)
 	{
 		printf("学号:%lld,姓名:%s,年龄:%d,性别:%s,成绩:%.3f,%d-%d-%d\n",
 			stu[j].ID, (stu + j)->Name, (stu + j)->Age, (stu + j)->Gender, (stu + j)->Grades,
